@@ -3,7 +3,7 @@
         <form onsubmit="return false">
             <div class="h1 text-wrap mb-4 fade-in-top">See a links top level SEO meta data.</div>
             <div class="mb-3">
-                <input type="text" name="site" placeholder="http://" value="http://" class="form-control user-input mb-2 fade-in-fwd" id="exampleInputText">
+                <input type="text" name="site" placeholder="https://" value="https://" class="form-control user-input mb-2 fade-in-fwd" id="exampleInputText">
             </div>
             <button type="submit" @submit.prevent v-on:click="getUserinput(), updateEl()" class="mb-4 shrink-border fade-in-bck">Submit</button>
         </form>

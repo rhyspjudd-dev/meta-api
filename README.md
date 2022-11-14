@@ -5,7 +5,7 @@ This app pulls the top level meta data from any link which a user inputs.
 
 Thanks for considering me :)
 ```
-Netlify [Link](#)
+Netlify [Link](https://majestic-banoffee-31d9d5.netlify.app),
 Linkpreview API [Link](https://www.linkpreview.net/)
 
 ## Project setup
