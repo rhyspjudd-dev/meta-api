@@ -33,11 +33,8 @@
             const options = {method: 'GET', headers: {accept: 'application/json'}};
             fetch('http://api.linkpreview.net/?key=fdd563e42cde3abcf84d9e7f28a624d9&q=' + userInput, options)
                 .then(response => response.json())
-                // .then(response => console.log(response))
                 .then(response => 
-                //alert(response.description),
                 show(response)
-     
                 )
                 .catch(err => console.error(err));
             },
