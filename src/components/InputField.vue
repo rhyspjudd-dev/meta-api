@@ -76,11 +76,3 @@
 
     } 
 </script>
-
-<style>
-
-.finalMeta {
-    display: none;
-}
-
-</style>

@@ -39,6 +39,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+section {
+  max-width: 550px;
+}
+
 .overlay {
     position: absolute;
     inset: 0;
