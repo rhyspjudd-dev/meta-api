@@ -90,9 +90,14 @@ a {
   font-size: 0.6rem;
 }
 
-a:hover { 
-transform: scale(1.1);
-color: #444F5F; 
+a:hover {
+  cursor: pointer; 
+  color: #444F5F; 
+}
+
+.finalMeta {
+  display: none;
+  text-align: left;
 }
 
 button {
@@ -103,6 +108,7 @@ button {
   border-radius: 3px;
   padding: 8px 23px;
   border: 3px solid transparent;
+  max-width: 350px;
 }
 
 button:active {
@@ -172,6 +178,10 @@ button::after, button::before {
 .fade-out-left {
 	-webkit-animation: fade-out-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: fade-out-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.puff-in-center {
+	-webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2s both;
+	        animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 2s both;
 }
 @-webkit-keyframes fade-in-top {
   0% {
@@ -320,6 +330,37 @@ button::after, button::before {
   }
 }
 
-
+@-webkit-keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
 
 </style>

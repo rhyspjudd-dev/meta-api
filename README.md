@@ -1,10 +1,12 @@
-# app
+# Meta App
 ```
 Reckless test
+This app pulls the top level meta data from any link which a user inputs.
 
 Thanks for considering me :)
 ```
-Netlify [Link](#).
+Netlify [Link](#)
+Linkpreview API [Link](https://www.linkpreview.net/)
 
 ## Project setup
 ```
