@@ -16,29 +16,7 @@ export default {
   components: {
     VideoContainer, InputField
   },
-  // methods: {
-  //   getUserinput () {
-  //       const userInput = document.querySelector(".user-input").value;
-  //       console.log(userInput)
-  //       makeAPIFetch()
-  //   }
-  // }
 }
-
-// function getUserinput() {
-//         e.preventDefault();
-//         let userInput = document.querySelector("input").value;
-//         alert(userInput)
-//     }
-// url = ''
-// url = url.replace(/\/[^\/]*$/, inputValue )
-
-// const options = {method: 'GET', headers: {accept: 'application/json'}};
-
-// fetch('http://api.linkpreview.net/?key=fdd563e42cde3abcf84d9e7f28a624d9&q=http://firefox.com', options)
-//   .then(response => response.json())
-//   .then(response => console.log(response))
-//   .catch(err => console.error(err));
 
 </script>
 
