@@ -1,7 +1,6 @@
 <template>
   <VideoContainer></VideoContainer>
   <div class="container p-4">
-    <!-- <p class="h1">Bootstrap heading</p> -->
     <InputField></InputField>
   </div>
 </template>
@@ -74,7 +73,6 @@ body {
 
 input {
   color: #444F5F;
-  /* min-width: 250px; */
   cursor: text;
   max-width: 250px;
   transition: 0.25s;
